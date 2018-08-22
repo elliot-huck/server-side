@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\bin\Debug\netcoreapp2.1\02-tuples.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\bin\Debug\netcoreapp2.1\02-tuples.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\bin\Debug\netcoreapp2.1\02-tuples.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\bin\Debug\netcoreapp2.1\02-tuples.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\bin\Debug\netcoreapp2.1\02-tuples.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\obj\Debug\netcoreapp2.1\02-tuples.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\obj\Debug\netcoreapp2.1\02-tuples.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\obj\Debug\netcoreapp2.1\02-tuples.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\obj\Debug\netcoreapp2.1\02-tuples.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\obj\Debug\netcoreapp2.1\02-tuples.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\02-tuples\obj\Debug\netcoreapp2.1\02-tuples.pdb
