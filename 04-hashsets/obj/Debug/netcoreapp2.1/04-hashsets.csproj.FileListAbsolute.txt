@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\bin\Debug\netcoreapp2.1\04-hashsets.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\bin\Debug\netcoreapp2.1\04-hashsets.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\bin\Debug\netcoreapp2.1\04-hashsets.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\bin\Debug\netcoreapp2.1\04-hashsets.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\bin\Debug\netcoreapp2.1\04-hashsets.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\obj\Debug\netcoreapp2.1\04-hashsets.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\obj\Debug\netcoreapp2.1\04-hashsets.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\obj\Debug\netcoreapp2.1\04-hashsets.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\obj\Debug\netcoreapp2.1\04-hashsets.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\obj\Debug\netcoreapp2.1\04-hashsets.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\04-hashsets\obj\Debug\netcoreapp2.1\04-hashsets.pdb
