@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\bin\Debug\netcoreapp2.1\01-lists.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\bin\Debug\netcoreapp2.1\01-lists.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\bin\Debug\netcoreapp2.1\01-lists.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\bin\Debug\netcoreapp2.1\01-lists.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\bin\Debug\netcoreapp2.1\01-lists.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\obj\Debug\netcoreapp2.1\01-lists.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\obj\Debug\netcoreapp2.1\01-lists.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\obj\Debug\netcoreapp2.1\01-lists.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\obj\Debug\netcoreapp2.1\01-lists.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\obj\Debug\netcoreapp2.1\01-lists.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\01-lists\obj\Debug\netcoreapp2.1\01-lists.pdb
