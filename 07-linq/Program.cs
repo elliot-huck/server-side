@@ -12,6 +12,12 @@ namespace linq
     public string Bank { get; set; }
   }
 
+  public class GroupedMillionaires
+  {
+    public string Bank { get; set; }
+    public IEnumerable<string> Millionaires { get; set; }
+  }
+
   public class Bank
   {
     public string Symbol { get; set; }
@@ -173,7 +179,30 @@ namespace linq
         Console.WriteLine($"{bank.BankName}: {bank.MillCount}");
       }
       Console.WriteLine();
+      /*
+      var groupedByBank = customers.Where(c => c.Balance >= 1000000).GroupBy(
+        p => p.Bank,
+        p => p.Name,
+        (bank, millionaires) => new GroupedMillionaires()
+        {
+          Bank = bank,
+          Millionaires = millionaires
+        }
+      )
+       */
 
+      /*
+      .GroupBy(
+        p => p.Bank,
+        p => p.Name,
+        (bank, millionaires) => new
+        {
+          Bank = bank,
+          Millionaires = millionaires
+        }
+      ).ToList
+
+       */
 
       // GROUP JOIN
       /*
@@ -189,8 +218,36 @@ namespace linq
               Les Paul at Wells Fargo
               Peg Vale at Bank of America
       */
+      // Create some banks and store in a List
+      List<Bank> banks = new List<Bank>() {
+            new Bank(){ Name="First Tennessee", Symbol="FTB"},
+            new Bank(){ Name="Wells Fargo", Symbol="WF"},
+            new Bank(){ Name="Bank of America", Symbol="BOA"},
+            new Bank(){ Name="Citibank", Symbol="CITI"},
+        };
 
+      var millionaireReport =
+      from c in customers
+      where c.Balance >= 1000000
+      join b in banks on c.Bank equals b.Symbol into m
+      select new { Name = c.Name, Bank = m.ToList()[0].Name };
+      // Needs ToList method so that m (which is originally of type Grouping) can have list methods used on it
 
+      Console.WriteLine("MILLIONAIRES AND THEIR BANKS");
+      foreach (var customer in millionaireReport)
+      {
+        Console.WriteLine($"{customer.Name} at {customer.Bank}");
+      }
+
+      /*
+			List<Customer> millionaireReport = customers
+			.Where(t => t.Balance >= 1000000)
+			.Select(c => new Customer()
+			{
+				Name = c.Name,
+				Bank = banks.Find(b => b.Symbol == c.bank).Name
+			})
+			 */
 
     }
   }
