@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\bin\Debug\netcoreapp2.1\07-linq.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\bin\Debug\netcoreapp2.1\07-linq.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\bin\Debug\netcoreapp2.1\07-linq.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\bin\Debug\netcoreapp2.1\07-linq.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\bin\Debug\netcoreapp2.1\07-linq.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\obj\Debug\netcoreapp2.1\07-linq.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\obj\Debug\netcoreapp2.1\07-linq.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\obj\Debug\netcoreapp2.1\07-linq.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\obj\Debug\netcoreapp2.1\07-linq.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\obj\Debug\netcoreapp2.1\07-linq.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\07-linq\obj\Debug\netcoreapp2.1\07-linq.pdb
