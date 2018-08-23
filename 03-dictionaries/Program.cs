@@ -62,6 +62,7 @@ namespace dictionaries
       foreach (KeyValuePair<string, double> companyStocks in portfolio)
       {
         Console.WriteLine($"{companyStocks.Key}: {companyStocks.Value}");
+        // ToString("C") creates a string of currency
       }
 
     }
