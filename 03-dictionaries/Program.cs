@@ -54,12 +54,15 @@ namespace dictionaries
         {
           // If not, add the new key and set its value
           portfolio.Add(companyName, (purchase.shares * purchase.price));
+          // OR
+          // portfolio[companyName] = purchase.shares * purchase.price;
         }
       }
 
       foreach (KeyValuePair<string, double> companyStocks in portfolio)
       {
         Console.WriteLine($"{companyStocks.Key}: {companyStocks.Value}");
+        // ToString("C") creates a string of currency
       }
 
     }
