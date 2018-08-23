@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
+// Steve's example code at:
+// https://gist.github.com/stevebrownlee/44f3c78a4de63c258d8a72eea1285834
+
 namespace linq
 {
 
@@ -123,12 +126,7 @@ namespace linq
       Console.WriteLine($@"OUR MOST EXPENSIVE PRODUCT COSTS ${maxPrice}
 			");
 
-      /*
-          Store each number in the following List until a perfect square
-          is detected.
-
-          Ref: https://msdn.microsoft.com/en-us/library/system.math.sqrt(v=vs.110).aspx
-      */
+      //Store each number in the following List until a perfect square is detected.
       List<int> wheresSquaredo = new List<int>()
       {
           66, 12, 8, 27, 82, 34, 7, 50, 19, 46, 81, 23, 30, 4, 68, 14
@@ -160,63 +158,31 @@ namespace linq
 
       /*
         Given the same customer set, display how many millionaires per bank.
-        Ref: https://stackoverflow.com/questions/7325278/group-by-in-linq
 
         Example Output:
         WF 2
         BOA 1
-        FTB 1
-        CITI 1
       */
       var millionairesPerBank =
-        from c in customers
+        (from c in customers
         where c.Balance >= 1000000
         group c by c.Bank into g
-        select new { BankName = g.Key, MillCount = g.Count() };
+        select new { BankName = g.Key, MillCount = g.Count() }).ToList();
       Console.WriteLine("MILLIONAIRES PER BANK");
       foreach (var bank in millionairesPerBank)
       {
         Console.WriteLine($"{bank.BankName}: {bank.MillCount}");
       }
       Console.WriteLine();
-      /*
-      var groupedByBank = customers.Where(c => c.Balance >= 1000000).GroupBy(
-        p => p.Bank,
-        p => p.Name,
-        (bank, millionaires) => new GroupedMillionaires()
-        {
-          Bank = bank,
-          Millionaires = millionaires
-        }
-      )
-       */
-
-      /*
-      .GroupBy(
-        p => p.Bank,
-        p => p.Name,
-        (bank, millionaires) => new
-        {
-          Bank = bank,
-          Millionaires = millionaires
-        }
-      ).ToList
-
-       */
 
       // GROUP JOIN
       /*
-          TASK:
-          As in the previous exercise, you're going to output the millionaires,
-          but you will also display the full name of the bank. You also need
-          to sort the millionaires' names, ascending by their LAST name.
+        As in the previous exercise, you're going to output the millionaires,
+        but you will also display the full name of the bank. You also need
+        to sort the millionaires' names, ascending by their LAST name.
 
-          Example output:
-              Tina Fey at Citibank
-              Joe Landy at Wells Fargo
-              Sarah Ng at First Tennessee
-              Les Paul at Wells Fargo
-              Peg Vale at Bank of America
+        Example output:
+            Tina Fey at Citibank
       */
       // Create some banks and store in a List
       List<Bank> banks = new List<Bank>() {
@@ -227,10 +193,11 @@ namespace linq
         };
 
       var millionaireReport =
-      from c in customers
+      (from c in customers
       where c.Balance >= 1000000
+      orderby c.Name.Split(" ")[1]
       join b in banks on c.Bank equals b.Symbol into m
-      select new { Name = c.Name, Bank = m.ToList()[0].Name };
+      select new { Name = c.Name, Bank = m.ToList()[0].Name }).ToList();
       // Needs ToList method so that m (which is originally of type Grouping) can have list methods used on it
 
       Console.WriteLine("MILLIONAIRES AND THEIR BANKS");
