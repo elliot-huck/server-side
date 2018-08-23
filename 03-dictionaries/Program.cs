@@ -54,6 +54,8 @@ namespace dictionaries
         {
           // If not, add the new key and set its value
           portfolio.Add(companyName, (purchase.shares * purchase.price));
+          // OR
+          // portfolio[companyName] = purchase.shares * purchase.price;
         }
       }
 
