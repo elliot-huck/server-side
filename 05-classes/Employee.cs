@@ -11,12 +11,5 @@ namespace Classes
     public string Title { get; set; }
     public DateTime StartDate { get; set; }
 
-
-
-
-
-
-
-
   }
 }

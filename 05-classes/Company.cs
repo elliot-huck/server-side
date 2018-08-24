@@ -12,7 +12,7 @@ namespace Classes
     public DateTime CreatedOn { get; }
 
     // Create a public property for holding a list of current employees
-    public HashSet<Employee> EmployeeRoster { get; set; }
+    public HashSet<Employee> EmployeeRoster = new HashSet<Employee>();
 
     /*
         Create a constructor method that accepts two arguments:
