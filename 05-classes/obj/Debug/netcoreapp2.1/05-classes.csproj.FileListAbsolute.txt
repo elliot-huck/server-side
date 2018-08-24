@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\bin\Debug\netcoreapp2.1\05-classes.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\bin\Debug\netcoreapp2.1\05-classes.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\bin\Debug\netcoreapp2.1\05-classes.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\bin\Debug\netcoreapp2.1\05-classes.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\bin\Debug\netcoreapp2.1\05-classes.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\obj\Debug\netcoreapp2.1\05-classes.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\obj\Debug\netcoreapp2.1\05-classes.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\obj\Debug\netcoreapp2.1\05-classes.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\obj\Debug\netcoreapp2.1\05-classes.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\obj\Debug\netcoreapp2.1\05-classes.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\05-classes\obj\Debug\netcoreapp2.1\05-classes.pdb
