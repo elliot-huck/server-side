@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\bin\Debug\netcoreapp2.1\09-nickelback.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\bin\Debug\netcoreapp2.1\09-nickelback.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\bin\Debug\netcoreapp2.1\09-nickelback.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\bin\Debug\netcoreapp2.1\09-nickelback.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\bin\Debug\netcoreapp2.1\09-nickelback.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\obj\Debug\netcoreapp2.1\09-nickelback.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\obj\Debug\netcoreapp2.1\09-nickelback.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\obj\Debug\netcoreapp2.1\09-nickelback.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\obj\Debug\netcoreapp2.1\09-nickelback.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\obj\Debug\netcoreapp2.1\09-nickelback.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\09-nickelback\obj\Debug\netcoreapp2.1\09-nickelback.pdb
