@@ -21,51 +21,47 @@ namespace _06_expression_function_members
       // Convert this readonly property to an expression member
       public string FormalName
       {
-        get
-        {
-          return $"{this.Name} the {this.Species}";
-        }
+        get => $"{Name} the {Species}";
       }
 
       // Class constructor
       public Bug(string name, string species, List<string> predators, List<string> prey)
       {
-        this.Name = name;
-        this.Species = species;
-        this.Predators = predators;
-        this.Prey = prey;
+        Name = name;
+        Species = species;
+        Predators = predators;
+        Prey = prey;
       }
 
       // Convert this method to an expression member
-      public string PreyList()
-      {
-        var commaDelimitedPrey = string.Join(",", this.Prey);
-        return commaDelimitedPrey;
-      }
+      public string PreyList() => string.Join(", ", Prey);
 
       // Convert this method to an expression member
-      public string PredatorList()
-      {
-        var commaDelimitedPredators = string.Join(",", this.Predators);
-        return commaDelimitedPredators;
-      }
+      public string PredatorList() => string.Join(", ", Predators);
 
       // Convert this to expression method (hint: use a C# ternary)
-      public string Eat(string food)
-      {
-        if (this.Prey.Contains(food))
-        {
-          return $"{this.Name} ate the {food}.";
-        }
-        else
-        {
-          return $"{this.Name} is still hungry.";
-        }
-      }
+      public string Eat(string food) =>
+      (Prey.Contains(food)) ? $"{Name} ate the {food}." : $"{Name} is still hungry.";
+
     }
+
+
     static void Main(string[] args)
     {
-      Console.WriteLine("Hello World!");
+
+      Bug smaug = new Bug("Smaug", "Dragonfly",
+      new List<string>(){"frog", "bird"},
+      new List<string>(){"mosquito", "gnat", "fly"});
+      Console.WriteLine(smaug.FormalName);
+			Console.WriteLine();
+			Console.Write("Prey: ");
+			Console.WriteLine(smaug.PreyList());
+			Console.Write("Predators: ");
+			Console.WriteLine(smaug.PredatorList());
+			Console.WriteLine();
+			Console.WriteLine(smaug.Eat("steak"));
+			Console.WriteLine(smaug.Eat("mosquito"));
+
     }
   }
 }
