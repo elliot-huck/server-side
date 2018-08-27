@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\bin\Debug\netcoreapp2.1\ex-1.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\bin\Debug\netcoreapp2.1\ex-1.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\bin\Debug\netcoreapp2.1\ex-1.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\bin\Debug\netcoreapp2.1\ex-1.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\bin\Debug\netcoreapp2.1\ex-1.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\obj\Debug\netcoreapp2.1\ex-1.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\obj\Debug\netcoreapp2.1\ex-1.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\obj\Debug\netcoreapp2.1\ex-1.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\obj\Debug\netcoreapp2.1\ex-1.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\obj\Debug\netcoreapp2.1\ex-1.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\00-lightning\ex-1\obj\Debug\netcoreapp2.1\ex-1.pdb
