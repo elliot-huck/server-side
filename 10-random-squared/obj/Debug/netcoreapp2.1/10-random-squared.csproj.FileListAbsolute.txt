@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\bin\Debug\netcoreapp2.1\10-random-squared.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\bin\Debug\netcoreapp2.1\10-random-squared.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\bin\Debug\netcoreapp2.1\10-random-squared.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\bin\Debug\netcoreapp2.1\10-random-squared.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\bin\Debug\netcoreapp2.1\10-random-squared.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\obj\Debug\netcoreapp2.1\10-random-squared.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\obj\Debug\netcoreapp2.1\10-random-squared.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\obj\Debug\netcoreapp2.1\10-random-squared.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\obj\Debug\netcoreapp2.1\10-random-squared.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\obj\Debug\netcoreapp2.1\10-random-squared.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\10-random-squared\obj\Debug\netcoreapp2.1\10-random-squared.pdb
