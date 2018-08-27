@@ -5,15 +5,15 @@ namespace ex_1
 {
   public class Student
   {
-    private string firstName;
-    private string lastName;
+    private string _firstName;
+    private string _lastName;
 
-    public string FullName() => $"{firstName} {lastName}";
+    public string FullName() => $"{_firstName} {_lastName}";
 
     public Student(string first, string last)
     {
-      firstName = first;
-      lastName = last;
+      _firstName = first;
+      _lastName = last;
     }
 
     List<Exercise> Exercises = new List<Exercise>();
