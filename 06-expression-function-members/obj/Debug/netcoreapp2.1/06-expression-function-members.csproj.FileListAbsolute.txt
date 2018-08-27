@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\bin\Debug\netcoreapp2.1\06-expression-function-members.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\bin\Debug\netcoreapp2.1\06-expression-function-members.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\bin\Debug\netcoreapp2.1\06-expression-function-members.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\bin\Debug\netcoreapp2.1\06-expression-function-members.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\bin\Debug\netcoreapp2.1\06-expression-function-members.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\obj\Debug\netcoreapp2.1\06-expression-function-members.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\obj\Debug\netcoreapp2.1\06-expression-function-members.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\obj\Debug\netcoreapp2.1\06-expression-function-members.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\obj\Debug\netcoreapp2.1\06-expression-function-members.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\obj\Debug\netcoreapp2.1\06-expression-function-members.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\06-expression-function-members\obj\Debug\netcoreapp2.1\06-expression-function-members.pdb
