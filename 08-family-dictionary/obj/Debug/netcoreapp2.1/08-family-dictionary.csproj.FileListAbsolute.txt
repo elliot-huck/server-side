@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\bin\Debug\netcoreapp2.1\08-family-dictionary.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\bin\Debug\netcoreapp2.1\08-family-dictionary.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\bin\Debug\netcoreapp2.1\08-family-dictionary.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\bin\Debug\netcoreapp2.1\08-family-dictionary.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\bin\Debug\netcoreapp2.1\08-family-dictionary.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\obj\Debug\netcoreapp2.1\08-family-dictionary.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\obj\Debug\netcoreapp2.1\08-family-dictionary.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\obj\Debug\netcoreapp2.1\08-family-dictionary.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\obj\Debug\netcoreapp2.1\08-family-dictionary.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\obj\Debug\netcoreapp2.1\08-family-dictionary.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\08-family-dictionary\obj\Debug\netcoreapp2.1\08-family-dictionary.pdb
