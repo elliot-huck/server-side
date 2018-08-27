@@ -2,11 +2,8 @@ using System.Collections.Generic;
 
 namespace ex_1
 {
-  public class Student
+  public class Student : Person
   {
-    private string _firstName;
-    private string _lastName;
-    public string FullName { get => $"{_firstName} {_lastName}"; }
     public List<Exercise> AssignedExercises { get; } = new List<Exercise>();
 
     public Student(string first, string last)
