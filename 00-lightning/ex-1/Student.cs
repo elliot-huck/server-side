@@ -8,7 +8,7 @@ namespace ex_1
     private string _firstName;
     private string _lastName;
 
-    public string FullName() => $"{_firstName} {_lastName}";
+    public string FullName { get => $"{_firstName} {_lastName}";}
 
     public Student(string first, string last)
     {
