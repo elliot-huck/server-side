@@ -5,8 +5,8 @@ namespace ex_1
   public class Cohort
   {
     public int Number { get; set; }
-    List<Student> StudentList { get; } = new List<Student>();
-    List<Instructor> InstructorList { get; } = new List<Instructor>();
+    public List<Student> StudentList { get; set; } = new List<Student>();
+    public List<Instructor> InstructorList { get; set; } = new List<Instructor>();
 
   }
 }

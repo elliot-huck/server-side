@@ -14,6 +14,10 @@ namespace ex_1
       _lastName = last;
     }
 
+    public void Assign(Exercise assignment, Student pupil)
+    {
+      pupil.AssignedExercises.Add(assignment);
+    }
 
   }
 }
