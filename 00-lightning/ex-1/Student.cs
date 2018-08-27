@@ -7,8 +7,8 @@ namespace ex_1
   {
     private string _firstName;
     private string _lastName;
-
-    public string FullName { get => $"{_firstName} {_lastName}";}
+    public string FullName { get => $"{_firstName} {_lastName}"; }
+    List<Exercise> AssignedExercises { get; } = new List<Exercise>();
 
     public Student(string first, string last)
     {
@@ -16,7 +16,6 @@ namespace ex_1
       _lastName = last;
     }
 
-    List<Exercise> Exercises = new List<Exercise>();
 
   }
 }
