@@ -2,7 +2,7 @@ using System;
 
 namespace interfaces
 {
-    public class Motorcycle : IVehicle
+    public class Motorcycle : IVehicle, ILand
   {
     public int Wheels { get; set; } = 2;
     public int Doors { get; set; } = 0;
@@ -19,14 +19,5 @@ namespace interfaces
       Console.WriteLine("The motorcycle screams down the highway");
     }
 
-    public void Start()
-    {
-      throw new NotImplementedException();
-    }
-
-    public void Stop()
-    {
-      throw new NotImplementedException();
-    }
   }
 }

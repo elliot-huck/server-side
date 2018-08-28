@@ -2,7 +2,7 @@ using System;
 
 namespace interfaces
 {
-  public class Cessna : IVehicle
+  public class Cessna : IVehicle, IAir
   {
     public int Wheels { get; set; } = 3;
     public int Doors { get; set; } = 3;
@@ -21,14 +21,5 @@ namespace interfaces
       Console.WriteLine("The Cessna effortlessly glides through the clouds like a gleaming god of the Sun");
     }
 
-    public void Start()
-    {
-      throw new NotImplementedException();
-    }
-
-    public void Stop()
-    {
-      throw new NotImplementedException();
-    }
   }
 }

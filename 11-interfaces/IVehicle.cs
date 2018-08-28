@@ -5,7 +5,5 @@ namespace interfaces
     int Doors { get; set; }
     int PassengerCapacity { get; set; }
     double EngineVolume { get; set; }
-    void Start();
-    void Stop();
   }
 }
