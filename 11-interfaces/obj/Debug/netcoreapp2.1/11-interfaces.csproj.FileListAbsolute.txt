@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\bin\Debug\netcoreapp2.1\11-interfaces.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\bin\Debug\netcoreapp2.1\11-interfaces.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\bin\Debug\netcoreapp2.1\11-interfaces.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\bin\Debug\netcoreapp2.1\11-interfaces.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\bin\Debug\netcoreapp2.1\11-interfaces.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\obj\Debug\netcoreapp2.1\11-interfaces.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\obj\Debug\netcoreapp2.1\11-interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\obj\Debug\netcoreapp2.1\11-interfaces.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\obj\Debug\netcoreapp2.1\11-interfaces.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\obj\Debug\netcoreapp2.1\11-interfaces.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\11-interfaces\obj\Debug\netcoreapp2.1\11-interfaces.pdb
