@@ -10,6 +10,17 @@ namespace interfaces
 
     public static void Main()
     {
+			List<IVehicle> allVehicles = new List<IVehicle>()
+			{
+				new Cessna(),
+				new Helicopter(),
+				new JetSki(),
+				new Minivan(),
+				new Motorcycle(),
+				new Pickup(),
+				new Seaplane(),
+				new Submarine(),
+			};
 
       // Build a collection of all vehicles that fly
 
