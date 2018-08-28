@@ -15,5 +15,9 @@ namespace ex_1
       pupil.AssignedExercises.Add(assignment);
     }
 
+    /*
+    pupil.AssignedExercises.Add(new AssignedExercise(assignment, this, stamp))
+     */
+
   }
 }
