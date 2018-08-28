@@ -14,7 +14,7 @@ namespace interfaces
 
     public void Drive()
     {
-      Console.WriteLine("The seaplane skims across the water");;
+      Console.WriteLine("The seaplane skims across the water's surface");
     }
 
     public void Fly()

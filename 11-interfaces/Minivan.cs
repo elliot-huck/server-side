@@ -13,7 +13,7 @@ namespace interfaces
 
     public void Drive()
     {
-      Console.WriteLine("The minivan moseys its way down the highway");
+      Console.WriteLine("The minivan moseys its way down the road");
     }
   }
 }

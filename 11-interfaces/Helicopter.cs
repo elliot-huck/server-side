@@ -13,7 +13,7 @@ namespace interfaces
 
     public void Fly()
     {
-      Console.WriteLine("The helicopter maneuvers through the air like an extremely aggressive hummingbird");
+      Console.WriteLine("The helicopter darts through the air like a gratuitously violent hummingbird");
     }
 
   }
