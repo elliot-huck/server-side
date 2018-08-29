@@ -1,0 +1,11 @@
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\bin\Debug\netcoreapp2.1\12-dream-team.deps.json
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\bin\Debug\netcoreapp2.1\12-dream-team.runtimeconfig.json
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\bin\Debug\netcoreapp2.1\12-dream-team.runtimeconfig.dev.json
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\bin\Debug\netcoreapp2.1\12-dream-team.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\bin\Debug\netcoreapp2.1\12-dream-team.pdb
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\obj\Debug\netcoreapp2.1\12-dream-team.csprojAssemblyReference.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\obj\Debug\netcoreapp2.1\12-dream-team.csproj.CoreCompileInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\obj\Debug\netcoreapp2.1\12-dream-team.AssemblyInfoInputs.cache
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\obj\Debug\netcoreapp2.1\12-dream-team.AssemblyInfo.cs
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\obj\Debug\netcoreapp2.1\12-dream-team.dll
+C:\Users\Elliot\workspace\3-back-end\exercises\12-dream-team\obj\Debug\netcoreapp2.1\12-dream-team.pdb
