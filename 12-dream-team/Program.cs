@@ -1,8 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace dream_team
 {
-  public class Elliot
+  public interface ITeammate
+  {
+    string FirstName { get; }
+    string LastName { get; }
+    string FullName { get; }
+    string Specialty { get; set; }
+    void Work();
+  }
+  public class Elliot : ITeammate
   {
     public string FirstName { get; } = "Elliot";
     public string LastName { get; } = "Huck";
@@ -11,7 +20,7 @@ namespace dream_team
     public void Work() => Console.WriteLine($"{FirstName} draws out absurdly over-complicated diagrams before he even begins coding in {Specialty}");
   }
 
-  public class Jordan
+  public class Jordan : ITeammate
   {
     public string FirstName { get; } = "Jordan";
     public string LastName { get; } = "Williams";
@@ -20,7 +29,7 @@ namespace dream_team
     public void Work() => Console.WriteLine($"{FirstName} bangs his head on the keyboard as he writes all the {Specialty}");
   }
 
-  public class Seth
+  public class Seth : ITeammate
   {
     public string FirstName { get; } = "Seth";
     public string LastName { get; } = "Dana";
@@ -29,7 +38,7 @@ namespace dream_team
     public void Work() => Console.WriteLine($"{FirstName} immediately starts cranking out a really complex tangle of code in {Specialty}");
   }
 
-  public class Brett
+  public class Brett : ITeammate
   {
     public string FirstName { get; } = "Brett";
     public string LastName { get; } = "Shearin";
@@ -38,7 +47,7 @@ namespace dream_team
     public void Work() => Console.WriteLine($"{FirstName} meticulously types each individual line of {Specialty} code");
   }
 
-  public class Will
+  public class Will : ITeammate
   {
     public string FirstName { get; } = "Will";
     public string LastName { get; } = "Kimball";
@@ -47,7 +56,7 @@ namespace dream_team
     public void Work() => Console.WriteLine($"{FirstName} pastes 73,000 lines of {Specialty} code into his project because YOLO");
   }
 
-  public class Robert
+  public class Robert : ITeammate
   {
     public string FirstName { get; } = "Robert";
     public string LastName { get; } = "Leedy";
@@ -56,34 +65,39 @@ namespace dream_team
     public void Work() => Console.WriteLine($"{FirstName} quietly types his {Specialty} code as he pines away for his former seat");
   }
 
+  public class Team
+  {
+    public HashSet<ITeammate> Roster = new HashSet<ITeammate>();
+    public void GetToWork()
+    {
+      foreach (ITeammate member in Roster)
+      {
+        member.Work();
+      }
+    }
+  }
   class Program
   {
     static void Main(string[] args)
     {
-      Elliot elliot = new Elliot();
-      Seth seth = new Seth();
-      Jordan jordan = new Jordan();
-      Brett brett = new Brett();
-      Will will = new Will();
-      Robert robert = new Robert();
 
-      elliot.Work();
-      Console.WriteLine();
+      Team clientSide = new Team()
+      {
+        Roster = { new Seth(), new Jordan(), new Brett() },
+      };
 
-      seth.Work();
-      Console.WriteLine();
+      Team serverSide = new Team()
+      {
+        Roster = { new Elliot(), new Will(), new Robert() },
+      };
 
-      jordan.Work();
       Console.WriteLine();
+      Console.WriteLine("The Client-Side Dream Team:");
+      clientSide.GetToWork();
 
-      robert.Work();
       Console.WriteLine();
-
-      brett.Work();
-      Console.WriteLine();
-
-      will.Work();
-      Console.WriteLine();
+      Console.WriteLine("The Server-Side Dream Team:");
+      serverSide.GetToWork();
 
     }
   }
