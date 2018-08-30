@@ -151,7 +151,7 @@ FROM Album al
 JOIN Song s WHERE s.AlbumId = al.AlbumId
 GROUP BY s.AlbumId
 ORDER BY COUNT(s.SongId) DESC
-LIMIT 1;
+LIMIT 3;
 
 SELECT g.Label as "Genre with most songs",
 COUNT(s.SongId)
@@ -159,7 +159,7 @@ FROM Genre g
 JOIN Song s WHERE s.GenreId = g.GenreId
 GROUP BY s.GenreId
 ORDER BY COUNT(s.SongId) DESC
-LIMIT 1;
+LIMIT 3;
 
 SELECT r.LabelName as "Record with most albums",
 COUNT(a.AlbumId)
@@ -167,7 +167,7 @@ FROM RecordLabel r
 JOIN Album a WHERE a.LabelId = r.LabelId
 GROUP BY a.LabelId
 ORDER BY COUNT(a.AlbumId) DESC
-LIMIT 1;
+LIMIT 3;
 
 
 
