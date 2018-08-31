@@ -145,29 +145,39 @@ LEFT JOIN Album a
 ON s.AlbumId = a.AlbumId;
 
 --CHALLENGE
-SELECT al.Title as "Album with most songs",
+SELECT FirstSet.Title as "Album With Most Songs", 
+SecondSet.Label as "Genre With Most Songs", 
+ThirdSet.LabelName as "Record Label With Most Albums"
+FROM 
+(
+SELECT al.Title,
 COUNT(s.SongId)
 FROM Album al
 JOIN Song s WHERE s.AlbumId = al.AlbumId
 GROUP BY s.AlbumId
 ORDER BY COUNT(s.SongId) DESC
-LIMIT 3;
-
-SELECT g.Label as "Genre with most songs",
+LIMIT 1
+) as FirstSet
+JOIN
+(
+SELECT g.Label,
 COUNT(s.SongId)
 FROM Genre g
 JOIN Song s WHERE s.GenreId = g.GenreId
 GROUP BY s.GenreId
 ORDER BY COUNT(s.SongId) DESC
-LIMIT 3;
-
-SELECT r.LabelName as "Record with most albums",
+LIMIT 1
+) as SecondSet
+JOIN
+(
+SELECT r.LabelName,
 COUNT(a.AlbumId)
 FROM RecordLabel r
 JOIN Album a WHERE a.LabelId = r.LabelId
 GROUP BY a.LabelId
 ORDER BY COUNT(a.AlbumId) DESC
-LIMIT 3;
+LIMIT 1
+) as ThirdSet;
 
 
 
