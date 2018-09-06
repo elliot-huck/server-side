@@ -1,0 +1,60 @@
+CREATE TABLE Departments
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `Name` TEXT NOT NULL,
+  `Budget` REAL NOT NULL
+);
+
+CREATE TABLE Employees
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `FirstName` TEXT NOT NULL,
+  `LastName` TEXT NOT NULL,
+  `HireDate` TEXT NOT NULL,
+  `PayRate` REAL NOT NULL,
+  `IsSalaried` INTEGER NOT NULL,
+  `IsSupervisor` INTEGER NOT NULL,
+  `DepartmentId` INTEGER NOT NULL,
+	FOREIGN KEY(`DepartmentId`) REFERENCES `Department`(`Id`)
+);
+
+CREATE TABLE Trainings
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `Name` TEXT NOT NULL,
+  `StartDate` TEXT NOT NULL,
+	`EndDate` TEXT NOT NULL,
+	`MaxOccupancy` INTEGER NOT NULL
+);
+
+CREATE TABLE EmployeeTrainings
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `EmployeeId` INTEGER NOT NULL,
+  `TrainingId` INTEGER NOT NULL,
+	FOREIGN KEY(`EmployeeId`) REFERENCES `Employee`(`Id`),
+	FOREIGN KEY(`TrainingId`) REFERENCES `Training`(`Id`)
+);
+
+CREATE TABLE Computers
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `Model` TEXT NOT NULL,
+  `PurchaseDate` TEXT NOT NULL,
+	`DecommissionDate` TEXT NOT NULL,
+	`IsActive` INTEGER NOT NULL
+);
+
+CREATE TABLE EmployeeComputers
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`AssignmentDate` TEXT NOT NULL,
+	`ReturnDate` TEXT NOT NULL,
+  `EmployeeId` INTEGER NOT NULL,
+  `ComputerId` INTEGER NOT NULL,
+	FOREIGN KEY(`EmployeeId`) REFERENCES `Employee`(`Id`),
+	FOREIGN KEY(`ComputerId`) REFERENCES `Computer`(`Id`)
+);
+
+
+
