@@ -174,9 +174,163 @@ VALUES
 	10
 );
 
+INSERT INTO EmployeeTrainings
+VALUES
+(
+	null,
+	1,
+	3
+);
 
+INSERT INTO EmployeeTrainings
+VALUES
+(
+	null,
+	1,
+	2
+);
 
+INSERT INTO EmployeeTrainings
+VALUES
+(
+	null,
+	2,
+	1
+);
 
+INSERT INTO EmployeeTrainings
+VALUES
+(
+	null,
+	4,
+	3
+);
+
+INSERT INTO EmployeeTrainings
+VALUES
+(
+	null,
+	5,
+	1
+);
+
+INSERT INTO EmployeeTrainings
+VALUES
+(
+	null,
+	5,
+	2
+);
+
+INSERT INTO Computers
+VALUES
+(
+	null,
+	"HP Laptop",
+	"2018-08-27 08:00:00.000",
+	"2018-09-04 08:00:00.000",
+	0
+);
+
+INSERT INTO Computers
+VALUES
+(
+	null,
+	"Dell Laptop",
+	"2018-08-27 08:00:00.000",
+	null,
+	1
+);
+
+INSERT INTO Computers
+VALUES
+(
+	null,
+	"Apple Laptop",
+	"2018-08-27 08:00:00.000",
+	null,
+	0
+);
+
+INSERT INTO Computers
+VALUES
+(
+	null,
+	"Inspiron Laptop",
+	"2018-08-27 08:00:00.000",
+	null,
+	1
+);
+
+INSERT INTO Computers
+VALUES
+(
+	null,
+	"Dell Laptop",
+	"2018-08-27 08:00:00.000",
+	null,
+	1
+);
+
+INSERT INTO Computers
+VALUES
+(
+	null,
+	"Apple Laptop",
+	"2018-08-27 08:00:00.000",
+	null,
+	1
+);
+
+INSERT INTO EmployeeComputers
+VALUES
+(
+	null,
+	"2018-09-02 12:00:00.000",
+	"2018-09-03 12:00:00.000",
+	1,
+	1	
+);
+
+INSERT INTO EmployeeComputers
+VALUES
+(
+	null,
+	"2018-09-03 13:00:00.000",
+	"2018-09-04 07:00:00.000",
+	2,
+	1	
+);
+
+INSERT INTO EmployeeComputers
+VALUES
+(
+	null,
+	"2018-09-03 13:00:00.000",
+	null,
+	3,
+	5	
+);
+
+INSERT INTO EmployeeComputers
+VALUES
+(
+	null,
+	"2018-09-03 13:00:00.000",
+	"2018-09-06 13:00:00.000",
+	4,
+	3	
+);
+
+INSERT INTO EmployeeComputers
+VALUES
+(
+	null,
+	"2018-09-07 15:00:00.000",
+	null,
+	6,
+	3	
+);
 
 
 /*
@@ -188,5 +342,49 @@ CustomerPaymentTypes;
 Orders;
 CustomerOrders;
 */
+
+INSERT INTO Customers
+VALUES
+(
+	null,
+	"Mike",
+	"Malone",
+	"2018-09-01 12:00:00.000",
+	"2018-09-06 12:00:00.000",
+	null
+);
+
+INSERT INTO Customers
+VALUES
+(
+	null,
+	"Nancy",
+	"Nichols",
+	"2018-09-01 12:00:00.000",
+	"2018-09-04 12:00:00.000",
+	null
+);
+
+INSERT INTO Customers
+VALUES
+(
+	null,
+	"Oliver",
+	"Orwell",
+	"2018-09-02 12:00:00.000",
+	"2018-09-03 12:00:00.000",
+	null
+);
+
+INSERT INTO Customers
+VALUES
+(
+	null,
+	"Peggy",
+	"Peterson",
+	"2018-09-03 12:00:00.000",
+	"2018-09-06 12:00:00.000",
+	null
+);
 
 

@@ -51,7 +51,7 @@ CREATE TABLE EmployeeComputers
 (
   `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`AssignmentDate` TEXT NOT NULL,
-	`ReturnDate` TEXT NOT NULL,
+	`ReturnDate` TEXT,
   `EmployeeId` INTEGER NOT NULL,
   `ComputerId` INTEGER NOT NULL,
 	FOREIGN KEY(`EmployeeId`) REFERENCES `Employees`(`Id`),
@@ -117,8 +117,8 @@ CREATE TABLE CustomerOrders
 	`Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	`CustomerId` INTEGER NOT NULL,
 	`OrderId` INTEGER NOT NULL,
-	FOREIGN KEY(`CustomerId`) REFERENCES `Customer`(`Id`),
-	FOREIGN KEY(`OrderId`) REFERENCES `Order`(`Id`)
+	FOREIGN KEY(`CustomerId`) REFERENCES `Customers`(`Id`),
+	FOREIGN KEY(`OrderId`) REFERENCES `Orders`(`Id`)
 );
 
 
