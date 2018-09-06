@@ -387,4 +387,33 @@ VALUES
 	null
 );
 
+INSERT INTO ProductTypes
+VALUES
+(
+	null,
+	"Books"
+);
+
+INSERT INTO ProductTypes
+VALUES
+(
+	null,
+	"Electronics"
+);
+
+INSERT INTO ProductTypes
+VALUES
+(
+	null,
+	"Toys"
+);
+
+INSERT INTO ProductTypes
+VALUES
+(
+	null,
+	"Tools"
+);
+
+
 
