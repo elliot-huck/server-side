@@ -105,6 +105,21 @@ CREATE TABLE CustomerPaymentTypes
 	FOREIGN KEY(`PaymentTypeId`) REFERENCES `PaymentTypes`(`Id`)
 );
 
+CREATE TABLE Orders
+(
+	`Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`PaymentTypeId` INTEGER,
+	FOREIGN KEY(`PaymentTypeId`) REFERENCES `PaymentTypes`(`Id`)
+);
+
+CREATE TABLE CustomerOrders
+(
+	`Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`CustomerId` INTEGER NOT NULL,
+	`OrderId` INTEGER NOT NULL,
+	FOREIGN KEY(`CustomerId`) REFERENCES `Customer`(`Id`),
+	FOREIGN KEY(`OrderId`) REFERENCES `Order`(`Id`)
+);
 
 
 
