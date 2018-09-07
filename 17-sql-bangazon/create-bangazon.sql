@@ -1,0 +1,125 @@
+
+--COMPANY-FACING TABLES
+CREATE TABLE Departments
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `Name` TEXT NOT NULL,
+  `Budget` REAL NOT NULL
+);
+
+CREATE TABLE Employees
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `FirstName` TEXT NOT NULL,
+  `LastName` TEXT NOT NULL,
+  `HireDate` TEXT NOT NULL,
+  `PayRate` REAL,
+  `IsSalaried` INTEGER,
+  `IsSupervisor` INTEGER NOT NULL,
+  `DepartmentId` INTEGER NOT NULL,
+	FOREIGN KEY(`DepartmentId`) REFERENCES `Departments`(`Id`)
+);
+
+CREATE TABLE Trainings
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `Name` TEXT NOT NULL,
+  `StartDate` TEXT NOT NULL,
+	`EndDate` TEXT NOT NULL,
+	`MaxOccupancy` INTEGER NOT NULL
+);
+
+CREATE TABLE EmployeeTrainings
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `EmployeeId` INTEGER NOT NULL,
+  `TrainingId` INTEGER NOT NULL,
+	FOREIGN KEY(`EmployeeId`) REFERENCES `Employees`(`Id`),
+	FOREIGN KEY(`TrainingId`) REFERENCES `Trainings`(`Id`)
+);
+
+CREATE TABLE Computers
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `Model` TEXT NOT NULL,
+  `PurchaseDate` TEXT NOT NULL,
+	`DecommissionDate` TEXT,
+	`IsActive` INTEGER NOT NULL
+);
+
+CREATE TABLE EmployeeComputers
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`AssignmentDate` TEXT NOT NULL,
+	`ReturnDate` TEXT,
+  `EmployeeId` INTEGER NOT NULL,
+  `ComputerId` INTEGER NOT NULL,
+	FOREIGN KEY(`EmployeeId`) REFERENCES `Employees`(`Id`),
+	FOREIGN KEY(`ComputerId`) REFERENCES `Computers`(`Id`)
+);
+
+
+--CUSTOMER-FACING TABLES
+CREATE TABLE Customers
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+  `FirstName` TEXT NOT NULL,
+  `LastName` TEXT NOT NULL,
+  `JoinDate` TEXT NOT NULL,
+  `LastInteractionDate` TEXT NOT NULL,
+  `IsActive` INTEGER
+);
+
+CREATE TABLE ProductTypes
+(
+	`Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`Label` TEXT NOT NULL
+);
+
+CREATE TABLE Products
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`Title` TEXT NOT NULL,
+	`Description` TEXT NOT NULL,
+  `Quantity` INTEGER NOT NULL,
+  `Price` REAL NOT NULL,
+	`CustomerId` INTEGER NOT NULL,
+	`ProductTypeId` INTEGER NOT NULL,
+	FOREIGN KEY(`CustomerId`) REFERENCES `Customers`(`Id`),
+	FOREIGN KEY(`ProductTypeId`) REFERENCES `ProductTypes`(`Id`)
+);
+
+CREATE TABLE PaymentTypes
+(
+	`Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`Label` TEXT NOT NULL
+);
+
+CREATE TABLE CustomerPaymentTypes
+(
+  `Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`AccountNumber` INTEGER NOT NULL,
+  `CustomerId` INTEGER NOT NULL,
+  `PaymentTypeId` INTEGER NOT NULL,
+	FOREIGN KEY(`CustomerId`) REFERENCES `Customers`(`Id`),
+	FOREIGN KEY(`PaymentTypeId`) REFERENCES `PaymentTypes`(`Id`)
+);
+
+CREATE TABLE Orders
+(
+	`Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`PaymentTypeId` INTEGER,
+	FOREIGN KEY(`PaymentTypeId`) REFERENCES `PaymentTypes`(`Id`)
+);
+
+CREATE TABLE CustomerOrders
+(
+	`Id` INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	`CustomerId` INTEGER NOT NULL,
+	`OrderId` INTEGER NOT NULL,
+	FOREIGN KEY(`CustomerId`) REFERENCES `Customers`(`Id`),
+	FOREIGN KEY(`OrderId`) REFERENCES `Orders`(`Id`)
+);
+
+
+
