@@ -415,5 +415,187 @@ VALUES
 	"Tools"
 );
 
+INSERT INTO Products
+VALUES
+(
+	null,
+	"Power Drill",
+	"This drill is really powerful",
+	4,
+	69.99,
+	1,
+	4
+);
+
+INSERT INTO Products
+VALUES
+(
+	null,
+	"Necronomicon",
+	"More forbidden eldritch lore than your frail mortal mind could ever want or even comprehend!",
+	1,
+	6.66,
+	3,
+	1
+);
+
+INSERT INTO Products
+VALUES
+(
+	null,
+	"Lightsaber",
+	"An elegant weapon from a more civilized time",
+	2,
+	4990.00,
+	2,
+	2
+);
+
+INSERT INTO Products
+VALUES
+(
+	null,
+	"Toy Lightsaber",
+	"An elegant toy for a more civilized child",
+	20,
+	4.99,
+	2,
+	3
+);
+
+INSERT INTO PaymentTypes
+VALUES
+(
+	null,
+	"Visa"
+);
+
+INSERT INTO PaymentTypes
+VALUES
+(
+	null,
+	"AMEX"
+);
+
+INSERT INTO PaymentTypes
+VALUES
+(
+	null,
+	"MasterCard"
+);
+
+INSERT INTO PaymentTypes
+VALUES
+(
+	null,
+	"PayPal"
+);
+
+INSERT INTO CustomerPaymentTypes
+VALUES
+(
+	null,
+	12345678,
+	4,
+	2
+);
+
+INSERT INTO CustomerPaymentTypes
+VALUES
+(
+	null,
+	12345678,
+	4,
+	2
+);
+
+INSERT INTO CustomerPaymentTypes
+VALUES
+(
+	null,
+	87654321,
+	2,
+	4
+);
+
+INSERT INTO CustomerPaymentTypes
+VALUES
+(
+	null,
+	11235813,
+	1,
+	3
+);
+
+INSERT INTO CustomerPaymentTypes
+VALUES
+(
+	null,
+	12481632,
+	3,
+	3
+);
+
+INSERT INTO Orders
+VALUES
+(
+	null,
+	3
+);
+
+INSERT INTO Orders
+VALUES
+(
+	null,
+	4
+);
+
+INSERT INTO Orders
+VALUES
+(
+	null,
+	null
+);
+
+INSERT INTO ORDERS
+VALUES
+(
+	null,
+	null
+);
+
+INSERT INTO CustomerOrders
+VALUES
+(
+	null,
+	1,
+	1
+);
+
+INSERT INTO CustomerOrders
+VALUES
+(
+	null,
+	2,
+	2
+);
+
+INSERT INTO CustomerOrders
+VALUES
+(
+	null,
+	2,
+	3
+);
+
+INSERT INTO CustomerOrders
+VALUES
+(
+	null,
+	4,
+	4
+);
+
+
 
 
